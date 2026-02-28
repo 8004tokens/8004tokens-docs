@@ -15,6 +15,15 @@ This allows communities to move from:
 - passive observation of agents
 - to active economic participation around agents.
 
+## Token Mechanics (Key Rule)
+
+Tokr-issued agent tokens follow a strict, user-visible rule:
+
+- **LP is permanently locked**
+- **Trading fee is 1% per swap to the current agent owner**
+
+This is a core binding between token activity and the underlying ERC-8004 agent relationship.
+
 ## Public Interaction Model
 
 At a high level, tokenization requests are submitted through structured feedback conventions.
@@ -61,4 +70,3 @@ When Tokr processes a valid request, the flow includes:
 
 - [User Journeys](../user-journeys.md)
 - [Trust, Safety, and Execution Boundaries](../trust-safety.md)
-

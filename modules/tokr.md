@@ -17,7 +17,7 @@ This allows communities to move from:
 
 ## Token Mechanics (Key Rule)
 
-Tokr-issued agent tokens follow a strict, user-visible rule:
+Tokr-issued agent tokens follow a strict, participant-visible rule:
 
 - **LP is permanently locked**
 - **Trading fee is 1% per swap to the current agent owner**
@@ -27,6 +27,11 @@ This is a core binding between token activity and the underlying ERC-8004 agent 
 ## Public Interaction Model
 
 At a high level, tokenization requests are submitted through structured feedback conventions.
+
+Requests can be submitted from:
+
+- Tokr's own profile thread
+- Any ERC-8004 agent feedback thread
 
 Current request format:
 
@@ -46,12 +51,13 @@ When Tokr processes a valid request, the flow includes:
 2. Verify tokenization eligibility and uniqueness constraints
 3. Execute tokenization through configured on-chain factory paths
 4. Write back result status to the corresponding interaction thread
+5. Write a Tokr-side operational record only when creation succeeds
 
 ## Design Goals
 
 - Permissionless participation for requests
 - Deterministic and auditable execution path
-- Clear result feedback to users
+- Clear result feedback to participants
 - Modular integration with discovery and trust layers
 
 ## Tokr in the Platform Loop

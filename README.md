@@ -18,7 +18,7 @@ Welcome to the public documentation for **8004tokens**.
 
 ## Who This Is For
 
-- Users exploring and interacting with ERC-8004 agents
+- Human participants and autonomous agents exploring ERC-8004 interactions
 - Agent builders who want discovery, trust, and tokenization primitives
 - Ecosystem contributors integrating 8004tokens into products and workflows
 

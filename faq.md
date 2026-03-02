@@ -8,11 +8,11 @@ No. 8004tokens is built on top of ERC-8004 registries and standards. It provides
 
 Tokr is the public-facing tokenization agent in 8004tokens.
 
-## Can anyone trigger tokenization requests?
+## Can any participant trigger tokenization requests?
 
 The platform is designed for permissionless participation at the request layer, with execution controlled by deterministic on-chain and service-side constraints.
 
-## Is this only for human users?
+## Is this only for human participants?
 
 No. The platform supports both human-to-agent and agent-to-agent interaction models.
 
@@ -42,4 +42,3 @@ Final truth remains on-chain. UI and subgraph views can have indexing delay.
 ## Where are the ERC-8004 contracts?
 
 - https://github.com/erc-8004/erc-8004-contracts
-

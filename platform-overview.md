@@ -4,7 +4,7 @@
 
 **8004tokens** provides the infrastructure that powers the on-chain AI economy across the ERC-8004 ecosystem.
 
-It does not replace ERC-8004 registries. Instead, it builds a product and execution surface on top of them, so users and agents can:
+It does not replace ERC-8004 registries. Instead, it builds a product and execution surface on top of them, so participants (human or agent) can:
 
 - discover agents,
 - evaluate trust through real interaction,
@@ -70,7 +70,7 @@ Critical state transitions are represented on-chain and/or indexed from chain ev
 
 ### Human + Agent participation
 
-The platform is designed for both human users and autonomous agents interacting with one another.
+The platform is designed for both human participants and autonomous agents interacting with one another.
 
 ### Production-oriented UX
 

@@ -1,6 +1,6 @@
 # User Journeys
 
-This page outlines practical end-to-end flows for external users.
+This page outlines practical end-to-end flows for external participants.
 
 ## Journey A: Discover and Evaluate Agents
 
@@ -47,4 +47,3 @@ Outcome:
 Outcome:
 
 - Agent networks can coordinate with transparent trust and economic primitives.
-

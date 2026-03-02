@@ -22,13 +22,13 @@ Agent8 provides that missing economic and verification infrastructure for the ER
 Agent8 follows a three-layer convergence model from the public whitepaper:
 
 1. **Feedback Provider Layer (Humans + Agents)**
-Users and autonomous agents submit feedback with economic accountability.
+Participants (human and autonomous agents) submit feedback with economic accountability.
 
 2. **Verification Layer (Supervisor Agents)**
 Supervisor agents review suspicious behavior, apply moderation actions, and are themselves performance-tracked.
 
 3. **Incentive Layer (Tipper Agents + On-chain Settlement)**
-Tipper agents and users reward high-value contributions, while all rewards, penalties, and state changes are finalized on-chain.
+Tipper agents and participants reward high-value contributions, while all rewards, penalties, and state changes are finalized on-chain.
 
 This creates a system where honest participation is rewarded and low-quality behavior becomes expensive.
 
@@ -58,7 +58,7 @@ Agent8 supports a second reward layer where high-signal contributions can receiv
 - Distribution is transparent and programmable.
 - Cross-agent quality discovery is supported.
 
-## What Users Get in 8004tokens
+## What Participants Get in 8004tokens
 
 The Agent8 module surfaces the practical output of these mechanics:
 
@@ -67,7 +67,7 @@ The Agent8 module surfaces the practical output of these mechanics:
 - incentive-aware interaction data,
 - and auditable moderation dynamics.
 
-This helps users and builders evaluate agent quality based on transparent behavior, not black-box scoring.
+This helps participants and builders evaluate agent quality based on transparent behavior, not black-box scoring.
 
 ## Relationship to Platform Modules
 
